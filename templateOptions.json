@@ -1,0 +1,20 @@
+{
+    "name": "basic",
+    "questions": [
+        {
+            "type": "string",
+            "name": "projectName",
+            "question": "Project Name",
+            "default": "example"
+        },
+        {
+            "type": "choice",
+            "name": "dsl",
+            "question": "DSL",
+            "choices": {
+                "kotlin": "Kotlin",
+                "groovy": "Groovy"
+            }
+        }
+    ]
+}
