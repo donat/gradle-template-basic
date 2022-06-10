@@ -2,4 +2,6 @@
 targetFile=build.gradle<#if dsl =='kotlin'>.kts</#if>
 </#GradleTemplate>
 
-// build`
+<#if targetFile == 'build.gradle.kts'>
+// here comes the build
+</#if>
