@@ -1,5 +1,5 @@
 <#GradleTemplate>
-targetFile=settings.gradle<#if dsl =='kotlin'>.kts</#if>
+file=settings.gradle<#if dsl =='kotlin'>.kts</#if>
 </#GradleTemplate>
 
 rootProject.name = "${projectName}"

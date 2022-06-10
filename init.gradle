@@ -1,5 +1,5 @@
 <#GradleTemplate>
-targetFile=init.gradle<#if dsl =='kotlin'>.kts</#if>
+file=init.gradle<#if dsl =='kotlin'>.kts</#if>
 skip=<#if dsl =='kotlin'>true</#if>
 </#GradleTemplate>
 
