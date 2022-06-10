@@ -1,7 +1,7 @@
 <#GradleTemplate>
 targetFile=init.gradle<#if dsl =='kotlin'>.kts</#if>
-onlyIf=<#if dsl =='kotlin'>true</#if>
-</#GradleTemplate>
+skip=<#if dsl =='kotlin'>true</#if>
+</#GrskiadleTemplate>
 
 
 // an init scrip
