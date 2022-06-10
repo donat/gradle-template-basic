@@ -4,4 +4,8 @@ targetFile=build.gradle<#if dsl =='kotlin'>.kts</#if>
 
 
 
-// ${gradleVersion.version}
+<#if gradleVersion.sameOrNewer('7.4')>
+// here comes the new build
+#else>
+// here comes the old build
+</#if>
