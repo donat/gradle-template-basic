@@ -4,4 +4,4 @@ skip=<#if dsl =='kotlin'>true</#if>
 </#GradleTemplate>
 
 
-// an init scrip
+// an init script
