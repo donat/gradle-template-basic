@@ -4,4 +4,4 @@ targetFile=build.gradle<#if dsl =='kotlin'>.kts</#if>
 
 
 
-// ${gradleVersion.version}
+// ${gradleVersion.version.toString()}
