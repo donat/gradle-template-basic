@@ -1,11 +1,3 @@
 <#GradleTemplate>
 file=build.gradle<#if dsl =='kotlin'>.kts</#if>
 </#GradleTemplate>
-
-
-
-<#if gradleVersion.sameOrNewer('7.7')>
-// here comes the new build
-<#else>
-// here comes the old build
-</#if>
